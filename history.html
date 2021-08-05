@@ -15,7 +15,7 @@
     <script src="history.js"></script>
   </head>
   <body>
-    <h1>Idle API Demonstration</h1>
+    <h1>Idle API</h1>
     <h2>Current state</h2>
     <p>
       Idle threshold:
@@ -25,13 +25,13 @@
         <option value="60">60</option>
       </select>
     <p>
-      <code>chrome.idle.queryState(<strong id="idle-set-threshold"></strong>, ...);</code> - 
+      <code>chrome.idle.queryState(<strong id="idle-set-threshold"></strong>, ...);</code> -
       <span id="idle-state"></span>
     </p>
     <p>
       Last state change: <span id="idle-laststate"></span>
     </p>
-    
+
     <h2>Idle changes:</h2>
     <ul id='idle-history'></ul>
   </body>

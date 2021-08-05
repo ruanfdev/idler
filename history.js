@@ -63,6 +63,7 @@ var dom_history = document.querySelector('#idle-history');
  * of "active" states.  No events are fired upon idle.
  */
 function renderHistory() {
+  dom_history = document.querySelector('#idle-history');
   dom_history.innerHTML = "";
   var history_log = chrome.extension.getBackgroundPage().history_log;
   for (var i = 0; i < history_log.length; i++) {
