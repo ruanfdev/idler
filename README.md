@@ -1,2 +1,2 @@
-# *UNDER DEVELOPMENT - Paused*
+# *Idler*
 * Chrome extension to test IDLE permission
